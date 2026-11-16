@@ -1,0 +1,7 @@
+        CSEG AT 01FBH
+        JMP I2ST_DMA_ENTRY
+
+I2ST_DMA_ENTRY:
+        JMP 006BH
+
+        END

@@ -1,0 +1,34 @@
+# Keil build outputs
+**/Objects/
+**/Listings/
+*.obj
+*.lst
+*.map
+*.crf
+*.lnp
+*.hex
+*.bin
+*.build_log.htm
+*.log
+
+# Keil personal workspace and backups
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.bak
+*.tmp
+*.__i
+
+# Python / editor / OS files
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Keep the USB library required by the project
+!代码/lib/*.lib
